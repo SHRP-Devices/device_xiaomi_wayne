@@ -102,3 +102,18 @@ TW_EXCLUDE_TWRPAPP := true
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# SHRP-specific flags
+SHRP_DEVICE_CODE := wayne
+SHRP_PATH := device/xiaomi/wayne
+SHRP_MAINTAINER := amy1337
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_Only
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_EXPRESS := true
+SHRP_DARK := true
+
