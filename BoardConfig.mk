@@ -116,4 +116,4 @@ SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
 SHRP_EXPRESS := true
 SHRP_DARK := true
-
+SHRP_OFFICIAL := true
